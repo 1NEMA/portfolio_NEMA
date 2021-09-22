@@ -1,0 +1,277 @@
+#mainHeader{
+    background-color:rgba(0, 0, 0, 0.5);
+    width: auto;
+    height: auto;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+}
+
+#mainNav{
+    width: 800px;
+    height: auto;
+}
+
+#mainNav ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none; 
+}
+
+#mainNav li{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#mainNav a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 25px;
+}
+
+#mainNav a:hover{
+    color:black;
+    text-decoration: none;
+    box-shadow: 0 0 10px white;
+    background-color: white;
+}
+
+#menuToggle{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+}
+
+#about{
+    margin-top: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: auto;
+    height: 40px;
+}
+
+#presentation{
+    display: flex;
+}
+
+#information{
+ margin-left: 20px;
+}
+
+#image img{
+    margin-top: 20px;
+    width: 500px;
+    height: auto;
+}
+
+#information h2{
+    font-size: 50px;
+}
+
+#information p{
+    font-size: 30px;
+}
+
+#travaux{
+    background-color: black;
+    width: auto;
+    height: auto;
+}
+
+#travaux_titre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#travaux_titre h3{
+    color:white;
+    font-size: 25px;
+}
+
+#images_travaux{
+    margin-left: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#images_travaux img{
+    width: 400px;
+    height: 300px;
+    margin: 30px auto 30px auto;
+    
+}
+
+#services{
+    width: auto;
+    height: auto;}
+
+#titre_service{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#titre_service h4{
+    font-size: 25px;
+   }
+
+#blocks{
+ display: flex;
+ justify-content: space-between;
+
+}
+
+.block_services{
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.block_services img{
+    margin-top: 30px;
+    width: 250px;
+    height: 150px;
+}
+.block_services h5{
+    font-size: 20px;
+}
+
+
+.block_services:hover{
+    box-shadow: 0 0 20px rgb(255, 45, 45);
+    background-color: rgb(255, 45, 45);
+    background-position: bottom top;
+    color: white;
+    transition: all .8s;
+}
+
+
+#contact{
+    width: auto;
+    height: 600px;
+    background-color: black;
+}
+
+#contact_titre{
+display: flex;
+justify-content: center;
+height: 100px;
+}
+
+#contact_titre h6{
+    font-size: 30px;
+    color: white;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form input[type="text"]{
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+#form textarea{
+    width: 300px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+#form input[type="submit"]{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+
+#footer{
+    background-color:rgba(0, 0, 0, 0.5);
+    width: auto;
+    height: auto;
+    position: sticky;
+    display: flex;
+}
+
+#coordonnees{
+    margin-bottom: 5px;
+}
+
+#mail #numero #rs{
+    display: flex;
+}
+
+ #mainFooter{
+     margin-left: 200px;
+    width: 800px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+#mainFooter ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+}
+
+
+#mainFooter li{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#mainFooter a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 25px;
+}
+
+#mainFooter a:hover{
+    color:black;
+    text-decoration: none;
+    box-shadow: 0 0 10px white;
+    background-color: white;
+}
+
+
+@media screen and (min-width: 768px){
+#menuToggle{
+    display: none;  
+}
+}
+
+
+@media screen and (min-width: 1024px){
+    #menuToggle{
+        display: none;  
+    }
+    }
+
+    
+@media screen and (min-width: 1200px){
+    #menuToggle{
+        display: none;  
+    }
+    }
